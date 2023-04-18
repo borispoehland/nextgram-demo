@@ -14,7 +14,6 @@ export default function Layout(props) {
       <body>
         <GithubCorner />
         {props.children}
-        {props.modal}
       </body>
     </html>
   );
